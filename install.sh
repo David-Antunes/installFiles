@@ -11,6 +11,8 @@ apt install -y \
 	dconf-editor \
 	gnome-tweaks
 
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 flatpak install flathub -y \
 	org.audacityteam.Audacity \
 	org.videolan.VLC \
