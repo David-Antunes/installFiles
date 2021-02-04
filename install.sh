@@ -4,7 +4,6 @@
 
 
 apt install -y \
-	git \
 	vim \
 	htop \
 	kolourpaint \
