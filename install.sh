@@ -7,11 +7,11 @@ apt install -y \
 	git \
 	vim \
 	htop \
-	kolour-paint \
+	kolourpaint \
 	dconf-editor \
 	gnome-tweaks
 
-flatpack install flathub -y \
+flatpak install flathub -y \
 	org.audacityteam.Audacity \
 	org.videolan.VLC \
 	com.discordapp.Discord \
@@ -61,7 +61,7 @@ apt-get remove -y docker docker-engine docker.io containerd runc
 
 apt-get update
 
-apt-get install \
+apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -82,7 +82,7 @@ add-apt-repository \
 ### Installing Docker Engine
 
 
-apt-get install docker-ce docker-ce-cli containerd.io
+apt-get install -y docker-ce docker-ce-cli containerd.io
 
 ### Sound fix 
 
