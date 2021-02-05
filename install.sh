@@ -8,7 +8,9 @@ apt install -y \
 	htop \
 	kolourpaint \
 	dconf-editor \
-	gnome-tweaks
+	gnome-tweaks \
+	nodejs \
+
 
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
@@ -90,3 +92,18 @@ apt-get install -y docker-ce docker-ce-cli containerd.io
 ### TODO Make it automatic when waking up the system
 hda-verb /dev/snd/hwC0D0 0x20 SET_COEF_INDEX 0x67
 hda-verb /dev/snd/hwC0D0 0x20 SET_PROC_COEF 0x3000
+
+echo ''
+echo ''
+echo ''
+
+echo 'INSTALL GNOME EXTENSIONS'
+
+echo 'INSTALL CPU POWER MANAGER'
+
+echo 'INSTALL POMODORO'
+
+
+### INSTALL GNOME EXTENSIONS
+### INSTALL CPU POWER MANAGER
+### INSTALL POMODORO
